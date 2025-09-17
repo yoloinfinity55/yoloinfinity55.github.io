@@ -2,12 +2,23 @@ baseURL = 'https://yoloinfinity55.github.io/'
 languageCode = 'en-us'
 title = 'YOLO Infinity 55 Blog'
 
-
 [params]
-  homeInfoParams = { Title = "Welcome to YOLO Infinity 55", Content = "This is my personal blog where I share my thoughts, projects, and adventures!" }
+  homeInfoParams = { Title = "Welcome to YOLO Infinity 55!", Content = "Hi, I'm yoloinfinity55! This is my personal blog where I share my adventures, projects, and thoughts on tech and creativity. Explore my latest posts below or check out my GitHub for more!", Image = "/images/home-banner.jpg", ImagePosition = "right", ImageWidth = "300px" }
   socialIcons = [
-    { name = "github", url = "https://github.com/yoloinfinity55" }
+    { name = "github", url = "https://github.com/yoloinfinity55" },
+    { name = "twitter", url = "https://x.com/yoloinfinity55" }
   ]
+  ShowReadingTime = true
+  ShowWordCount = true
+  ShowBreadcrumbs = true
+  ShowPostNavLinks = true
+  ShowAllPagesOnHome = true
+  ShowTaxonomyPostCount = true
+  ShowCoverImageInList = true
+  ShowCoverImageInSingle = true
+  Paginate = 5
+  PaginatePath = "page"
+  customCSS = ["posts-grid.css", "homepage.css"]
 
 [menu]
   [[menu.main]]

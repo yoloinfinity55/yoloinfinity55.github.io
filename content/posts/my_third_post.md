@@ -1,7 +1,10 @@
 ---
-title: "My_third_post"
+title: "My Third Post"
 date: 2025-09-17T07:01:35-04:00
 draft: false
+description: "My third blog post sharing updates and adventures"
+tags: ["blog", "update", "adventure"]
+categories: ["Blog"]
 ---
 
 # My Third Post
